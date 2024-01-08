@@ -1,0 +1,9 @@
+
+// Write a function `duplicate2` to take an array and return an array with the elements repeated twice:
+
+// Example
+
+// `duplicate2([10, 20, 30])`  should return `[10, 10, 20, 20, 30, 30]`
+
+// 'duplicate2(["Tomi","K",])
+should return '["Tomi","Tomi","K","K"]'

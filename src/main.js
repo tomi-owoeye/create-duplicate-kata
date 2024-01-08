@@ -1,5 +1,14 @@
-import { sum } from "./sum.js";
 
-console.log("sum is ", sum(10, 20));
+
 console.log("This is main.js.");
-console.log("You should probably use `yarn test` or `yarn test --watchAll`");
+
+
+
+function duplicate2(arr) {
+    const duplicateArr = [...arr,...arr];
+    return duplicateArr
+}
+const inputArray = ["10", "20", "30"];
+const result = duplicate2(inputArray);
+
+console.log(result);
